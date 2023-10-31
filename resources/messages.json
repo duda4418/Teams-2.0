@@ -1,0 +1,64 @@
+{
+  "0a89c133-fc22-41b7-8231-54c7f26ba591": [
+    {
+      "name": "Rebecuta",
+      "value": "Salut"
+    },
+    {
+      "name": "David Serban",
+      "value": "Salut"
+    },
+    {
+      "name": "Rebecuta",
+      "value": "Ce faci ?"
+    },
+    {
+      "name": "David Serban",
+      "value": "Bine, ma gandeam la tine"
+    },
+    {
+      "name": "Rebecuta",
+      "value": "Eu nu"
+    },
+    {
+      "name": "Rebecuta",
+      "value": "Roscat urat"
+    }
+  ],
+  "4e9d7609-4a50-4d83-90f8-7b24d90e670d": [
+    {
+      "name": "Bob",
+      "value": "Salut"
+    },
+    {
+      "name": "David Serban",
+      "value": "Salut"
+    },
+    {
+      "name": "Bob",
+      "value": "Ce faci ?"
+    },
+    {
+      "name": "David Serban",
+      "value": "Bine tu ?"
+    }
+  ],
+  "6b3bcd3f-5213-467c-98e7-7b95d3c78482": [
+    {
+      "name": "Charlie",
+      "value": "Salut"
+    },
+    {
+      "name": "David Serban",
+      "value": "Salut"
+    },
+    {
+      "name": "Charlie",
+      "value": "Ce faci ?"
+    },
+    {
+      "name": "David Serban",
+      "value": "Bine tu ?"
+    }
+  ]
+}
