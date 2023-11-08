@@ -9,20 +9,26 @@ class Client:
         }
     def get(self, endpoint ):
         response = requests.get(endpoint, headers=self.headers)
-        self._check_response(response)
-        return response.json()
+        succes = self._check_response(response)
+        if succes:
+            return response.json()
+        return None
 
     def post(self, endpoint, body):
         response = requests.post(endpoint, headers = self.headers, json = body)
-        self._check_response(response)
-        return response.json()
+        succes = self._check_response(response)
+        if succes:
+            return response.json()
+        return None
 
     def delete(self, endpoint):
         response = requests.delete(endpoint, headers = self.headers)
-        self._check_response(response)
-        return response.json()
-
-    def _check_response(self, response):
+        succes = self._check_response(response)
+        if succes:
+            return response.json()
+        return None
+    @staticmethod
+    def _check_response(response):
         success = response.ok
         if not success:
             messagebox.showerror("API error message", response.content)
